@@ -14,12 +14,12 @@ esto dependiendo del tamaño de matriz que el usuario desea utilizar.
 
 
   Asimismo, se recomienda mantener las librerias .h y los archivos .c dentro de un mismo ambiente, 
-eventualmente si se decide mover la libreria, es necesario indicarle al compilador la carpeta y nombre del archivo de la libreria,
-para que el compilador pueda encontrarlo a la hore de compilar el archivo.c.
+eventualmente si se decide mover la librería, es necesario indicarle al compilador la carpeta y nombre del archivo de la librería,
+para que el compilador pueda encontrarlo a la hora de compilar el archivo.c.
 ...........................................................................................................................................................................................................................................................................
   Descripciones generales de los archivos:
 
-  El archivo testing(1).c y GofL(1).h utilizan las matrices de 100 x 100, 
+  El archivo testing(1).c y GofL(1).h utiliza una matriz de 100 x 100, 
 por otra parte, el archivo testing(2).c y GofL(2).h hacen uso la matriz de 50 x 50, 
 esto con el propósito de que a la hora de compilar, se imprima en pantalla la matriz de manera ordenada;
 aspecto, el cual no sucede con la matriz de 100x100, debido a las capacidades de la pantalla.
