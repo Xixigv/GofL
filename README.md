@@ -24,7 +24,7 @@ por otra parte, el archivo testing(2).c y GofL(2).h hacen uso la matriz de 50 x 
 esto con el propósito de que a la hora de compilar, se imprima en pantalla la matriz de manera ordenada;
 aspecto, el cual no sucede con la matriz de 100x100, debido a las capacidades de la pantalla.
 Por último, el archivo 10x10.c, como su nombre lo indica, es una matriz de 10 x 10, la cual, fue la matriz inicial del proyecto.
-...........................................................................................................................................................................................................................................................................
+...........................................................................................................................................................................................................................................................................                                 
     Reglas del funcionamiento del juego:
 
   1. Por cada espacio de la matriz que este poblada:
