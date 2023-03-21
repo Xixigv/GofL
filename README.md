@@ -17,6 +17,7 @@ esto dependiendo del tamaño de matriz que el usuario desea utilizar.
   Asimismo, se recomienda mantener las librerias .h y los archivos .c dentro de un mismo ambiente, 
 eventualmente si se decide mover la librería, es necesario indicarle al compilador la carpeta y nombre del archivo de la librería,
 para que el compilador pueda encontrarlo a la hora de compilar el archivo.c.
+
 ....................................................................................................................................................................
 
   Descripciones generales de los archivos:
@@ -26,6 +27,7 @@ por otra parte, el archivo testing(2).c y GofL(2).h hacen uso la matriz de 50 x 
 esto con el propósito de que a la hora de compilar, se imprima en pantalla la matriz de manera ordenada;
 aspecto, el cual no sucede con la matriz de 100x100, debido a las capacidades de la pantalla.
 Por último, el archivo 10x10.c, como su nombre lo indica, es una matriz de 10 x 10, la cual, fue la matriz inicial del proyecto.
+
 .....................................................................................................................................................................                               
     Reglas del funcionamiento del juego:
 
@@ -53,4 +55,5 @@ Por último, el archivo 10x10.c, como su nombre lo indica, es una matriz de 10 x
   -	Cada generación el programa imprimirá el estado actual del universo a consola.
   -	El usuario ingresará el carácter ‘n’ (next) para avanzar una generación
   -	El usuario puede ingresar el carácter ‘e’ (exit) para terminar la simulación.
+  -	
 ...................................................................................................................................................................
