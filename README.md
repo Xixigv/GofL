@@ -28,11 +28,16 @@ Por último, el archivo 10x10.c, como su nombre lo indica, es una matriz de 10 x
     Reglas del funcionamiento del juego:
 
   1. Por cada espacio de la matriz que este poblada:
+  
         - Cada celula con ningun vecino o con un solo vecino, mueren por soledad.
+        
         - Cada celula con 4 o más vecinos, muere por sobrepoblación.
+        
         - Cada celula con 2 0 3 vecinos, sobrevive.
       
+      
   2. Para espacios vacios:
+  
         - Cada celula vacia con 3 vecinos, se pobla.
       
 ...........................................................................................................................................................................................................................................................................
