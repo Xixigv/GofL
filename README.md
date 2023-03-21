@@ -27,18 +27,18 @@ Por último, el archivo 10x10.c, como su nombre lo indica, es una matriz de 10 x
 ...........................................................................................................................................................................................................................................................................                                 
     Reglas del funcionamiento del juego:
 
-  1. Por cada espacio de la matriz que este poblada:
+  1. Por cada espacio de la matriz que esté poblada:
   
-        - Cada celula con ningun vecino o con un solo vecino, mueren por soledad.
+        - Cada célula con ningun vecino o con un solo vecino, mueren por soledad.
         
-        - Cada celula con 4 o más vecinos, muere por sobrepoblación.
+        - Cada célula con 4 o más vecinos, muere por sobrepoblación.
         
-        - Cada celula con 2 0 3 vecinos, sobrevive.
+        - Cada célula, con 2 0 3 vecinos, sobrevive.
       
       
-  2. Para espacios vacios:
+  2. Para espacios vacíos:
   
-        - Cada celula vacia con 3 vecinos, se pobla.
+        - Cada célula vacía con 3 vecinos, se pobla.
       
 ...........................................................................................................................................................................................................................................................................
   Consideraciones generales de la implementación:
@@ -48,6 +48,6 @@ Por último, el archivo 10x10.c, como su nombre lo indica, es una matriz de 10 x
   -	El usuario puede escribir pares de números enteros para determinar qué células inician con vida.
   -	Cuando el usuario ingresa -1 -1 la simulación inicia
   -	Cada generación el programa imprimirá el estado actual del universo a consola.
-  -	El usuario ingresara el carácter ‘n’ (next) para avanzar una generación
+  -	El usuario ingresará el carácter ‘n’ (next) para avanzar una generación
   -	El usuario puede ingresar el carácter ‘e’ (exit) para terminar la simulación.
 ...................................................................................................................................................................
